@@ -1,54 +1,26 @@
 # ADHD 综合训练管理系统
 
-ADHD (Attention Deficit Hyperactivity Disorder) 综合训练管理系统，帮助 ADHD 患者进行认知训练、任务管理和自我监控。
+## 📁 文档目录
 
-## 功能特性
+### cognitive/ - 认知训练模块
+- 注意力训练
+- 工作记忆训练
+- 执行功能训练
 
-- ✅ 认知注意力训练模块
-- ✅ 冲动控制训练
-- ✅ 工作记忆训练
-- ✅ 时间管理工具
-- ✅ 情绪调节辅助
-- ✅ 进度追踪与报告
+### behavioral/ - 行为管理模块
+- 冲动控制
+- 情绪调节
+- 生活习惯养成
 
-## 技术架构
+### training/ - 训练方案
+- 基础训练
+- 进阶训练
+- 个性化方案
 
-- Frontend: React + TypeScript
-- Backend: Python (FastAPI) / Node.js
-- Database: PostgreSQL / MongoDB
-- Deployment: Docker + Kubernetes
+## 📝 使用说明
 
-## 快速开始
-
+请将 ADHD 训练相关文档上传到对应目录：
 ```bash
-# 克隆项目
-git clone https://github.com/zqdaigit/adhd-training-system.git
-
-# 安装依赖
-npm install
-
-# 启动开发服务器
-npm run dev
-```
-
-## 项目结构
-
-```
-adhd-training-system/
-├── frontend/          # 前端代码
-├── backend/           # 后端服务
-├── docs/              # 文档
-└── tests/             # 测试用例
-```
-
-## 贡献指南
-
-欢迎提交 Issue 和 Pull Request！
-
-## 许可证
-
-MIT License
-
----
-
-*ADHD Training System - ZQDAIGIT*
+docs/cognitive/    # 认知训练文档
+docs/behavioral/   # 行为管理文档  
+docs/training/     # 训练方案文档
